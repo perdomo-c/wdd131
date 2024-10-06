@@ -88,7 +88,7 @@ main {
 
 .about-location {
     margin-top: 0px;
-    flex: flex;
+    flex: 100%;
     background-color: rgb(187, 185, 185);
     padding: 20px;
 }
