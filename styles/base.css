@@ -46,7 +46,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: gray;
     transform: scale(1.05);
-    transition: transform 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 /* Main Layout*/
@@ -73,17 +73,11 @@ main {
 
 .about-text {
     flex: 3;
-    margin-right: 20px;
+    padding: 20px;
 }
 
 .about-image {
     flex: 1;
-}
-
-.about-image img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 0px;
 }
 
 .about-location {
@@ -113,7 +107,7 @@ main {
 .card h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: purple;
+    color: #5d3e9c;
 }
 
 
@@ -124,6 +118,13 @@ main {
 
 .card ul li {
     margin-bottom: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 /* Footer */
