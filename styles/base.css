@@ -68,7 +68,7 @@ main {
 .about-content {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .about-text {
@@ -77,17 +77,18 @@ main {
 }
 
 .about-image {
-    margin-top: 50px;
     flex: 1;
 }
 
 .about-image img {
     max-width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .about-location {
+    margin-top: 0px;
+    width: 550px;
     background-color: rgb(187, 185, 185);
     padding: 20px;
 }
@@ -110,10 +111,6 @@ main {
     color: purple;
 }
 
-.card img {
-    max-width: 100%;
-    margin-bottom: 20px;
-}
 
 .card ul {
     list-style-type: none;
